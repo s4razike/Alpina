@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0e6a89857f4c4e469c3fba82cbadeda, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: f1e5062598f84dc4ab0e63d702dedb9d, type: 3}
+  m_Name: FloatCard
   m_EditorClassIdentifier: 
-  Stars: 30
-  Health: 0
-  MaxHealth: 3
+  cardName: MarioCanario
+  description: Flotar
+  icon: {fileID: 0}
+  floatDuration: 0.5

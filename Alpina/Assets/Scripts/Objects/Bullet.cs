@@ -9,6 +9,8 @@ public class Bullet : MonoBehaviour
     private Vector2 direction;
     private bool directionSet = false;
 
+    public int dano = 10;
+
     void Start()
     {
         Destroy(gameObject, lifetime); // Destruye la bala después de cierto tiempo
@@ -25,6 +27,21 @@ public class Bullet : MonoBehaviour
         if (directionSet)
         {
             transform.Translate(direction * speed * Time.deltaTime);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            // Buscar si tiene un script con la función RecibirDanio
+            BossAtackPatern bossAttackPattern = collision.GetComponent<BossAtackPatern>();
+            if (bossAttackPattern != null)
+            {
+                bossAttackPattern.RecibirDanio(dano);
+            }
+
+            Destroy(gameObject); // Destruir la bala al impactar
         }
     }
 }

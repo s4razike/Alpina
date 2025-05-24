@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0e6a89857f4c4e469c3fba82cbadeda, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 049c2bb65495f5948adbe399b3286ee2, type: 3}
+  m_Name: ShieldCard
   m_EditorClassIdentifier: 
-  Stars: 30
-  Health: 0
-  MaxHealth: 3
+  cardName: Trompedro
+  description: Si el escudo no se rompe gana 1 vida
+  icon: {fileID: 0}

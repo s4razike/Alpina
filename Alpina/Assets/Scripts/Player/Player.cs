@@ -4,15 +4,49 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public PlayerStats stats;
+    public bool hasShield = false;
+    private Coroutine shieldCoroutine;
+
+    public void ActivateShield(float duration, int reward)
     {
-        
+        if (shieldCoroutine != null) StopCoroutine(shieldCoroutine);
+        shieldCoroutine = StartCoroutine(ShieldRoutine(duration, reward));
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator ShieldRoutine(float duration, int reward)
     {
-        
+        hasShield = true;
+        bool shieldBroken = false;
+        float timer = 0f;
+
+        // Aquí puedes activar un efecto visual
+
+        while (timer < duration)
+        {
+            if (!hasShield)
+            {
+                shieldBroken = true;
+                break;
+            }
+
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        hasShield = false;
+
+        // Aquí puedes desactivar el efecto visual
+
+        if (!shieldBroken && stats.Health < stats.MaxHealth)
+        {
+            stats.Health += reward;
+        }
     }
+
+    public void BreakShield()
+    {
+        hasShield = false;
+    }
+
 }
