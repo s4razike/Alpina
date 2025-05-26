@@ -7,14 +7,12 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
      public static UIManager Instance;
-
-     [Header("UI")]
-    //referencias de texto(HUD)
-    public TextMeshProUGUI playerHealth;
+     // UI 
+     public Image escudo;
 
     //referencias para la barra de vida de enemigo
-    public Image healthBar;
-    public Image healthBar2;
+    //public Image healthBar;
+    //public Image healthBar2;
 
     [Header("Panels")]
 
@@ -49,6 +47,19 @@ public class UIManager : MonoBehaviour
         gameOverPanel.SetActive(false);
         winPanel.SetActive(false);  
         settingsPanel.SetActive(false);
+        escudo.gameObject.SetActive(false);
+ 
     }
 
+    public void ShieldPower()
+    {
+    escudo.gameObject.SetActive(true);
+ 
+    }
+
+    public void DisableShieldPower()
+    {
+    escudo.gameObject.SetActive(false);
+ 
+    }
 }

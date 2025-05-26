@@ -6,23 +6,30 @@ public class PlayerShoot : MonoBehaviour
 {
     public GameObject bulletPrefab; 
     public Transform firePoint;
+    [HideInInspector]public bool isShooting = false;
+    private bool canShoot = true;
 
     private SpriteRenderer theSR;
+
+    private Animator anim;
 
     void Start()
     {
     theSR = GetComponent<SpriteRenderer>();
+    anim = GetComponent<Animator>();
     }
 
      void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            Shoot();
-        }
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot)
+    {
+        anim.SetTrigger("IsShooting");
+        canShoot = false;
+        isShooting = true; 
+    }
     }
 
-   void Shoot(){
+   void Shoot(){  
     
     GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
     Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), GetComponent<Collider2D>());
@@ -39,5 +46,12 @@ public class PlayerShoot : MonoBehaviour
         scale.x *= -1;
         bullet.transform.localScale = scale;
     }
-}
+    }
+  
+    public void StopShooting()
+    {
+    isShooting = false;
+    canShoot = true;
+    }
+
 }

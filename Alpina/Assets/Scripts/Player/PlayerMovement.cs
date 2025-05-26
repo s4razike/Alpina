@@ -39,9 +39,15 @@ public static PlayerMovement instance;
     private float floatTimer = 0f;
     private float originalGravityScale;
 
+    private Animator anim;
+    private PlayerShoot playerShoot;
+    [SerializeField] private PlayerStats stats;
+
     void Start()
     {
         theSR = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        playerShoot = GetComponent<PlayerShoot>();
         originalGravityScale = theRB.gravityScale;
     }
 
@@ -61,12 +67,21 @@ public static PlayerMovement instance;
         }
 
         UpdateSpriteDirection();
+        UpdateAnimations();
     }
 
     void FixedUpdate()
     {
         if (knockBackCounter > 0) return;
 
+    // No permitir movimiento horizontal mientras se dispara
+    if (playerShoot.isShooting ||stats.Health <= 0)
+    {
+        // Si está disparando, no se mueve
+        theRB.velocity = new Vector2(0, theRB.velocity.y);
+    }
+    else
+    {
         if (isDashing)
         {
             theRB.velocity = dashDirection * dashSpeed;
@@ -77,9 +92,19 @@ public static PlayerMovement instance;
             theRB.velocity = new Vector2(moveInput * moveSpeed, theRB.velocity.y);
         }
     }
+    }
+
+    private void UpdateAnimations()
+    {
+    anim.SetFloat("Speed", Mathf.Abs(theRB.velocity.x));
+    anim.SetBool("IsJumping", !isGrounded && !isFloating);
+    anim.SetBool("IsFloating", isFloating);
+    anim.SetBool("IsDashing", isDashing);
+    }
 
     private void HandleJump()
-    {
+    { 
+        if (!playerShoot.isShooting) {
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, 0.2f, whatIsGround);
 
         if (isGrounded)
@@ -99,6 +124,7 @@ public static PlayerMovement instance;
                 canDoubleJump = false;
             }
         }
+    }
     }
 
     private void HandleFastFall()

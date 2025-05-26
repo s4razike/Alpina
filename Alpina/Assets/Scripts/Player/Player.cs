@@ -7,11 +7,18 @@ public class Player : MonoBehaviour
     public PlayerStats stats;
     public bool hasShield = false;
     private Coroutine shieldCoroutine;
+    public Animator anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     public void ActivateShield(float duration, int reward)
     {
         if (shieldCoroutine != null) StopCoroutine(shieldCoroutine);
         shieldCoroutine = StartCoroutine(ShieldRoutine(duration, reward));
+        UIManager.Instance.ShieldPower(); 
     }
 
     private IEnumerator ShieldRoutine(float duration, int reward)
@@ -36,17 +43,19 @@ public class Player : MonoBehaviour
 
         hasShield = false;
 
-        // Aquí puedes desactivar el efecto visual
+        // desactivar el efecto visual
 
         if (!shieldBroken && stats.Health < stats.MaxHealth)
         {
             stats.Health += reward;
+            UIManager.Instance.DisableShieldPower(); 
         }
     }
 
     public void BreakShield()
     {
         hasShield = false;
+        anim.SetTrigger("ShieldBreak");
     }
 
 }

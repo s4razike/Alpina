@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 405953b3027116d4192b252973bdea76
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2212
+        width: 592
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3cc166d52ced14c98932fbbab31b04
+      internalID: 1157749677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_1
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 2217
+        width: 597
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5966401176ce4b543b14e935e61f9c2f
+      internalID: -612386809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_2
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2212
+        width: 587
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109e9aba0f0e8384097a2827e2728f27
+      internalID: -1672294885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_3
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 2207
+        width: 603
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbb1f4cd1cfaea478096c5c1c81bcfd
+      internalID: -469115246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_4
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 2202
+        width: 578
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d746ea1ebed2004881323d60f07f298
+      internalID: 716763743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1481
+        width: 593
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e509b31662858545a90ea58c188ecdb
+      internalID: -1274924429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_6
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1476
+        width: 588
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d69132da1a6dd4498b32d67792067d
+      internalID: 621563553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_7
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1463
+        width: 597
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d702c4d60d3f244494d3f7b73231a1b
+      internalID: -1439462987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_8
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1467
+        width: 611
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a8b4311c71c4e49a49bd10802e33fc
+      internalID: -1533451625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_9
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 1458
+        width: 588
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c66fad656f2434b8ae060f44e903c0
+      internalID: 871752383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 762
+        width: 602
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a353b2b0a28fd43b5bb1758b3788ea
+      internalID: 1524127315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_11
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 749
+        width: 602
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f74a1fa908d6554d89a8853aa30b65e
+      internalID: 200353727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_12
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 740
+        width: 606
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195b2a2486dbbb64fad497707e2c9df3
+      internalID: 1490235745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_13
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 740
+        width: 620
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd67587038cdc7f489e89b88cbbeefbf
+      internalID: 389670872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_14
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 740
+        width: 602
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b8bf015cd7c5a478d5ed07f756ea3f
+      internalID: 592527537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 15
+        width: 654
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23d66938c677a5429a00a436de4923b
+      internalID: -1592025518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESCUDO DESTRUYENDOSE_16
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 19
+        width: 626
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9209244ab62494e8658897105e3e29
+      internalID: 1274759878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ESCUDO DESTRUYENDOSE_0: 1157749677
+      ESCUDO DESTRUYENDOSE_1: -612386809
+      ESCUDO DESTRUYENDOSE_10: 1524127315
+      ESCUDO DESTRUYENDOSE_11: 200353727
+      ESCUDO DESTRUYENDOSE_12: 1490235745
+      ESCUDO DESTRUYENDOSE_13: 389670872
+      ESCUDO DESTRUYENDOSE_14: 592527537
+      ESCUDO DESTRUYENDOSE_15: -1592025518
+      ESCUDO DESTRUYENDOSE_16: 1274759878
+      ESCUDO DESTRUYENDOSE_2: -1672294885
+      ESCUDO DESTRUYENDOSE_3: -469115246
+      ESCUDO DESTRUYENDOSE_4: 716763743
+      ESCUDO DESTRUYENDOSE_5: -1274924429
+      ESCUDO DESTRUYENDOSE_6: 621563553
+      ESCUDO DESTRUYENDOSE_7: -1439462987
+      ESCUDO DESTRUYENDOSE_8: -1533451625
+      ESCUDO DESTRUYENDOSE_9: 871752383
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

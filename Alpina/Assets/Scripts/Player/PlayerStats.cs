@@ -10,7 +10,7 @@ public class PlayerStats : ScriptableObject
 
   [Header("Health")]
   public float Health; 
-  public float MaxHealth; 
+  public float MaxHealth = 3; 
 
    public void ResetPlayer()
   {
