@@ -14,5 +14,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Tortugalon
   description: Dash
-  icon: {fileID: 0}
-  cooldown: 5

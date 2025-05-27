@@ -10,8 +10,8 @@ public class BossAtackPatern : MonoBehaviour
     public GameObject prefabPluma;
     
     [Header("Configuración General")]
-    public float tiempoEntreAtaques = 2f;
-    public float tiempoDeDescanso = 1.5f;
+    public float tiempoEntreAtaques = 5f;
+    public float tiempoDeDescanso = 5f;
     public int vidaMaxima = 100;
     
     [Header("Configuración de Ataques")]
@@ -54,6 +54,7 @@ public class BossAtackPatern : MonoBehaviour
         {
             estaVivo = false;
             animator.SetTrigger("Die");
+            UIManager.Instance.Win();
             StopAllCoroutines();
         }
         else if (!enFase2 && vidaActual <= vidaMaxima / 2)
@@ -71,6 +72,19 @@ public class BossAtackPatern : MonoBehaviour
             Debug.Log("ataque plumas");
             yield return new WaitForSeconds(tiempoEntreAtaques);
             yield return Descanso();
+
+            animator.SetTrigger("AtaquePlumas");
+            EjecutarAtaqueRadial();
+            Debug.Log("ataque plumas");
+            yield return new WaitForSeconds(tiempoEntreAtaques);
+            yield return Descanso();
+
+            animator.SetTrigger("AtaquePlumas");
+            EjecutarAtaqueRadial();
+            Debug.Log("ataque plumas");
+            yield return new WaitForSeconds(tiempoEntreAtaques);
+            yield return Descanso();
+
 
             //animator.SetTrigger("AtaqueLengua");
             //yield return new WaitForSeconds(tiempoEntreAtaques);

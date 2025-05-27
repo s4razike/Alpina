@@ -5,11 +5,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DashCard", menuName = "Cards/Dash")]
 public class DashCard : PowerCard
 {
+    public float cooldownTime = 5f; // tiempo de espera en segundos
+    private float lastUseTime = -Mathf.Infinity;
 
    public override bool CanActivate(GameObject player)
     {
-        Debug.Log("funciona, aiuda");
-        return true;
+        //Debug.Log("funciona, aiuda");
+        //return true;
+        return Time.time >= lastUseTime + cooldownTime;
     }
 
     public override void Activate(GameObject player)
@@ -19,9 +22,7 @@ public class DashCard : PowerCard
     {
         playerMovement.Dash();
         
-        // Opcional: desactivar dash hasta que se complete
-        // playerMovement.DisableDash();
-        // Invoke(nameof(EnablePlayerDash), cooldownTime);
+         lastUseTime = Time.time;
     }
 }
 

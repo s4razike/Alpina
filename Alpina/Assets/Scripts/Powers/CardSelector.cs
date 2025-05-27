@@ -5,10 +5,17 @@ using UnityEngine;
 public class CardSelector : MonoBehaviour
 {
     public PowerCard[] availableCards;
+    public CardUIManager cardUIManager;
     public PlayerStats playerStats;
 
-    private bool cardSelected = false;
-    private PowerCard selectedCard;
+    public bool cardSelected = false;
+    public int selectedIndex = -1;
+    public PowerCard selectedCard;
+
+    void Start()
+    {
+        cardUIManager.OcultarTodasLasCartas();
+    }
 
     void Update() //para probar 
 {
@@ -34,14 +41,30 @@ public class CardSelector : MonoBehaviour
             }
         }
     }
+}
 
-    void SelectCard(int index)
+    /*void SelectCard(int index)
     {
         if (index < 0 || index >= availableCards.Length) return;
         
         selectedCard = availableCards[index]; // GUARDAMOS
+        selectedIndex = index;
         cardSelected = true;
         Debug.Log("Carta seleccionada: " + selectedCard.cardName);
+    }*/
+
+    public void SelectCard(int index)
+    {
+        if (index < 0 || index >= availableCards.Length) return;
+
+        selectedIndex = index;
+        selectedCard = availableCards[index];
+        cardSelected = true;
+
+        cardUIManager.MostrarCartaSeleccionada(index);
+
+        Debug.Log("Carta seleccionada: " + selectedCard.cardName);
     }
+
 }
-}
+

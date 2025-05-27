@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 37b9e61faa4988248972c56798d8d7d4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_0
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 8660
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a222eeb5fa0353d4eb3b9f80297d28e1
+      internalID: -971922887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_1
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 8660
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac74c6eab18d26745b137509eeac7a65
+      internalID: 1142419742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7960
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8440c28169ed7aa4ea8a66fe0de808f5
+      internalID: 446832952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_3
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 7960
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9982a36429ff00b49912ab8a6e409aa2
+      internalID: 1791855020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_4
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 7960
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3884526a0749c41a368749aac217b9
+      internalID: 730988769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7260
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c30fbe3a56fad49bcf91d90cabed04
+      internalID: -772069441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_6
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 7260
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b25f6cc036c5e64eb7da805dcc1dda0
+      internalID: -1626437684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_7
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 7260
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f7ac578e401ec47b27f0a5afd26a2b
+      internalID: 1668231744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6560
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011275e299996b344ae3890778d5ace7
+      internalID: 1412758106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_9
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 6560
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a301c238bec628044bb9af3bfb671663
+      internalID: -33469054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_10
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 6560
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f464e6a04984caa4389607c057e6bdba
+      internalID: -2087276931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5860
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fbd03beea365a449ab5df35c204108
+      internalID: -1646411873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_12
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 5860
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b265c5a39ddd1419d4d63daf083ca5
+      internalID: 2123042558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_13
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 5860
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c431406cbd4c24eaa4fc18f85b0c4b
+      internalID: 1049295332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5160
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d706f0c8343084b49a531ccfe3cb13ec
+      internalID: -1058600063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_15
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 5160
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b890af1af413ed43b86ecb3673c429a
+      internalID: -1334088444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_16
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 5160
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b483029fc9d60458de18f47b4a2bea
+      internalID: 391440609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4460
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e398dea2119e1d345a8aa303c8be4edf
+      internalID: -1966813798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_18
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 4460
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81260c6ece09f324f88a185651881e5c
+      internalID: 272479066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_19
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 4460
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ed9d37152345e43be4232fa0db17e2
+      internalID: 1256809369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3760
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a9fe256a41cbe48806114d5a164bc8
+      internalID: -2070762691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_21
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3760
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938a2b03a6e4df545b5f0132021b1da3
+      internalID: -161807266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_22
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 3760
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3080199ed9df26f4aa85bcd009265651
+      internalID: -389055256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426b0b22182f6d34b854532c389e7cd1
+      internalID: 1423901457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_24
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3060
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94ea5a945658bc4d9259260ecfcb626
+      internalID: -1988111355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_25
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 3060
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e67334657a95548be36fdd05465479
+      internalID: -385939723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2360
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2528b4cdab2348b49a6749203de2eab4
+      internalID: -517720842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_27
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2360
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089ec04d01ca54f439234d4f4ac768a7
+      internalID: 1423022787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_28
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 2360
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f170ee62d4ff1ef4ca17a8dbfde7bc3c
+      internalID: 1551247037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94792c66098053149b4ea84d1d8360c2
+      internalID: -2144109655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_30
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1660
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8867e7defb2ae934e994877938c2456b
+      internalID: -1609345294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_31
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1660
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff96c909a45f3d4699e3bec53803496
+      internalID: -959190040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1825a172299d4cb48803dfa177dd7439
+      internalID: 423356328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_33
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 960
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64110cc33545394f88da3e5ca93e5d6
+      internalID: 803047935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_34
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 960
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25994427f644aff41be2fa77ed445769
+      internalID: -465447634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE SHEET DERROTA_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 1270
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe975d52ad5fc2341a400bbc92faa41e
+      internalID: 288074781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPRITE SHEET DERROTA_0: -971922887
+      SPRITE SHEET DERROTA_1: 1142419742
+      SPRITE SHEET DERROTA_10: -2087276931
+      SPRITE SHEET DERROTA_11: -1646411873
+      SPRITE SHEET DERROTA_12: 2123042558
+      SPRITE SHEET DERROTA_13: 1049295332
+      SPRITE SHEET DERROTA_14: -1058600063
+      SPRITE SHEET DERROTA_15: -1334088444
+      SPRITE SHEET DERROTA_16: 391440609
+      SPRITE SHEET DERROTA_17: -1966813798
+      SPRITE SHEET DERROTA_18: 272479066
+      SPRITE SHEET DERROTA_19: 1256809369
+      SPRITE SHEET DERROTA_2: 446832952
+      SPRITE SHEET DERROTA_20: -2070762691
+      SPRITE SHEET DERROTA_21: -161807266
+      SPRITE SHEET DERROTA_22: -389055256
+      SPRITE SHEET DERROTA_23: 1423901457
+      SPRITE SHEET DERROTA_24: -1988111355
+      SPRITE SHEET DERROTA_25: -385939723
+      SPRITE SHEET DERROTA_26: -517720842
+      SPRITE SHEET DERROTA_27: 1423022787
+      SPRITE SHEET DERROTA_28: 1551247037
+      SPRITE SHEET DERROTA_29: -2144109655
+      SPRITE SHEET DERROTA_3: 1791855020
+      SPRITE SHEET DERROTA_30: -1609345294
+      SPRITE SHEET DERROTA_31: -959190040
+      SPRITE SHEET DERROTA_32: 423356328
+      SPRITE SHEET DERROTA_33: 803047935
+      SPRITE SHEET DERROTA_34: -465447634
+      SPRITE SHEET DERROTA_35: 288074781
+      SPRITE SHEET DERROTA_4: 730988769
+      SPRITE SHEET DERROTA_5: -772069441
+      SPRITE SHEET DERROTA_6: -1626437684
+      SPRITE SHEET DERROTA_7: 1668231744
+      SPRITE SHEET DERROTA_8: 1412758106
+      SPRITE SHEET DERROTA_9: -33469054
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

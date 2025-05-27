@@ -9,11 +9,15 @@ public class ShieldCard : PowerCard
     public bool hasShield = false;
     private Coroutine shieldCoroutine;
 
+    private bool yaFueUsada = false;
+
     [SerializeField] private float shieldDuration = 5f;
     [SerializeField] private int extraLifeReward = 1;
 
     public override bool CanActivate(GameObject player)
     {
+        if (yaFueUsada) return false;
+
     var controller = player.GetComponent<Player>();
     var stats = controller.stats;
 
@@ -21,11 +25,14 @@ public class ShieldCard : PowerCard
     }
     public override void Activate(GameObject player)
     {
+        if (yaFueUsada) return;
+
     var controller = player.GetComponent<Player>();
     
     if (!controller.hasShield)
     {
         controller.ActivateShield(shieldDuration, extraLifeReward);
+        yaFueUsada = true;
         Debug.Log("escudo activado");
     }
     }

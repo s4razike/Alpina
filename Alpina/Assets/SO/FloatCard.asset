@@ -14,5 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: MarioCanario
   description: Flotar
-  icon: {fileID: 0}
   floatDuration: 0.5

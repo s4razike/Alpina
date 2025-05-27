@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Trompedro
   description: Si el escudo no se rompe gana 1 vida
-  icon: {fileID: 0}
+  hasShield: 0
+  shieldDuration: 5
+  extraLifeReward: 1

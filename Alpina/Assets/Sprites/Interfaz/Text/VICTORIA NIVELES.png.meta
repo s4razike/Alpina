@@ -1,0 +1,1161 @@
+fileFormatVersion: 2
+guid: b3a2a5d567414ac4fb41766a1e7ff21a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_0
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 11520
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4a4bc3db102a4bbb6820dcd174600
+      internalID: 1808938689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_1
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 11520
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239bb5f5b8bd81d4d80ae942f3f2d8fb
+      internalID: -624996033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10800
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a3a1d9e45466d4e8aae2b5558b56f8
+      internalID: -770670034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_3
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 10800
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187625e45c051bf469825896f5afbbef
+      internalID: -1749164551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_4
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 10800
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471e153e9f510c04eac2232567d5203c
+      internalID: 1296834205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10080
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c37037efad92814081f7ba7c102fba6
+      internalID: -1145967928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_6
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 10080
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3d8cf9516a8714482248f399025040
+      internalID: -820244244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_7
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 10080
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7a4a9060f8a1c4bb90c806b5c96a71
+      internalID: 404366600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9360
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981c80f542dda0845a0c67f19c5b07e5
+      internalID: 761495057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_9
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 9360
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8284f3f74bb419a45ae61e2e2e47feb3
+      internalID: 32189815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_10
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 9360
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bd00f8f87c16a4390b82e318278dcf
+      internalID: -1793676444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704fe94b490199d40bffbfa725221ce7
+      internalID: -2075770811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_12
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 8640
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb52ef65af0ec84fa0a52131416932a
+      internalID: -1431263494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_13
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 8640
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc1b29b8388335448d8da8555ed03ee
+      internalID: 314927564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7920
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da32627231865444384bd48ebcc1943e
+      internalID: 405462166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_15
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 7920
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2be4176f12d2943a2b4a6484670510
+      internalID: -1534619830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_16
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 7920
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98590d061af573c4a9eddddbab03be5f
+      internalID: -473131652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9832ca9eceb440d459fbb02d9a655a62
+      internalID: -31012295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_18
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 7200
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5635d63384df4abf63ef8efdc4c33
+      internalID: -51347620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_19
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 7200
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9184c6553d5d822479ae1b8d5f262166
+      internalID: -1390468736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d447bd3c9d6b64abda5bd9721256d7
+      internalID: 2091123973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_21
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 6480
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31e31e07971e0748bf447893a752dc1
+      internalID: 2010694552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_22
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 6480
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0284fbdc024346a9cbcc81a8c34d9
+      internalID: 390864139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5760
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c59e0df6597564b89332e16a8568e1
+      internalID: 1523419171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_24
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 5760
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b803a471ae657654993443b6633e018c
+      internalID: 819473390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_25
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 5760
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f3be66a0f22f34d9399f56b822dae2
+      internalID: -2004688980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5040
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb565fe8e32d23145a6f5056d9589a91
+      internalID: -1169088639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_27
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 5040
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5879ac8d2405ed428ce150eff50f6dc
+      internalID: -912363146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_28
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 5040
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73278d9b8f5fb0345b0747342fd7b090
+      internalID: 837153352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfee159e30e8c434ea64b9f26befb7b4
+      internalID: 938977466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_30
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 4320
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1556ff55fcae624fa751040fc6c41ad
+      internalID: 657453195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_31
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 4320
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad2520f080324b40a29e053fa68ba0f
+      internalID: 1734352250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41543c4428025984fb31befa326083c3
+      internalID: -725754594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_33
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 3600
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b7283a9b5a8e2498d1a2875e84fd9f
+      internalID: 567518474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_34
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 3600
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f340543df1d9434ab9bba205e287a5b
+      internalID: 2042850833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca2747f9f26ad84b9b9e3990394429d
+      internalID: -1512910264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_36
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2880
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13655a3f571577b48b6db2146922a10d
+      internalID: -619763066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_37
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 2880
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e834afc965ce43b42b11bd73609889e1
+      internalID: 965354540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b03a225d811204fbe8f972af7c5e04
+      internalID: -2124484735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_39
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2160
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ebda0ab91b8a44884f395276a7537e
+      internalID: 898644248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_40
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 2160
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808b914ff0310c642ac0dc54f037e794
+      internalID: 211773386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa644579cd33da747adc3af58fed8067
+      internalID: -1680072068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_42
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1440
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732fb8dd419c90347ae6617b1400fe98
+      internalID: 164695333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_43
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 1440
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650351bdbe41462468bb824f6e1dc3a7
+      internalID: 1681337005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a74704be85653c448fa18ab52f147f5
+      internalID: -1983615522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_45
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 720
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbc963d53cf5cd479a782c8462ad83d
+      internalID: -911781968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORIA NIVELES_46
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 720
+        width: 1279
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b255ea7b18e03394c89925f8ccdad8e9
+      internalID: 1475115742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VICTORIA NIVELES_0: 1808938689
+      VICTORIA NIVELES_1: -624996033
+      VICTORIA NIVELES_10: -1793676444
+      VICTORIA NIVELES_11: -2075770811
+      VICTORIA NIVELES_12: -1431263494
+      VICTORIA NIVELES_13: 314927564
+      VICTORIA NIVELES_14: 405462166
+      VICTORIA NIVELES_15: -1534619830
+      VICTORIA NIVELES_16: -473131652
+      VICTORIA NIVELES_17: -31012295
+      VICTORIA NIVELES_18: -51347620
+      VICTORIA NIVELES_19: -1390468736
+      VICTORIA NIVELES_2: -770670034
+      VICTORIA NIVELES_20: 2091123973
+      VICTORIA NIVELES_21: 2010694552
+      VICTORIA NIVELES_22: 390864139
+      VICTORIA NIVELES_23: 1523419171
+      VICTORIA NIVELES_24: 819473390
+      VICTORIA NIVELES_25: -2004688980
+      VICTORIA NIVELES_26: -1169088639
+      VICTORIA NIVELES_27: -912363146
+      VICTORIA NIVELES_28: 837153352
+      VICTORIA NIVELES_29: 938977466
+      VICTORIA NIVELES_3: -1749164551
+      VICTORIA NIVELES_30: 657453195
+      VICTORIA NIVELES_31: 1734352250
+      VICTORIA NIVELES_32: -725754594
+      VICTORIA NIVELES_33: 567518474
+      VICTORIA NIVELES_34: 2042850833
+      VICTORIA NIVELES_35: -1512910264
+      VICTORIA NIVELES_36: -619763066
+      VICTORIA NIVELES_37: 965354540
+      VICTORIA NIVELES_38: -2124484735
+      VICTORIA NIVELES_39: 898644248
+      VICTORIA NIVELES_4: 1296834205
+      VICTORIA NIVELES_40: 211773386
+      VICTORIA NIVELES_41: -1680072068
+      VICTORIA NIVELES_42: 164695333
+      VICTORIA NIVELES_43: 1681337005
+      VICTORIA NIVELES_44: -1983615522
+      VICTORIA NIVELES_45: -911781968
+      VICTORIA NIVELES_46: 1475115742
+      VICTORIA NIVELES_5: -1145967928
+      VICTORIA NIVELES_6: -820244244
+      VICTORIA NIVELES_7: 404366600
+      VICTORIA NIVELES_8: 761495057
+      VICTORIA NIVELES_9: 32189815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
