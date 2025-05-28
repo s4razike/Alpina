@@ -54,12 +54,11 @@ public class UIManager : MonoBehaviour
     public void ShieldPower()
     {
     escudo.gameObject.SetActive(true);
- 
     }
 
     public void DisableShieldPower()
     {
     escudo.gameObject.SetActive(false);
- 
     }
+
 }
