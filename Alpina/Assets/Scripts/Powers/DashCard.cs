@@ -5,24 +5,36 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DashCard", menuName = "Cards/Dash")]
 public class DashCard : PowerCard
 {
-    public float cooldownTime = 5f; // tiempo de espera en segundos
+    public float cooldownTime = 5f;
     private float lastUseTime = -Mathf.Infinity;
 
    public override bool CanActivate(GameObject player)
     {
-        //Debug.Log("funciona, aiuda");
-        //return true;
-        return Time.time >= lastUseTime + cooldownTime;
+     if (Time.time >= lastUseTime + cooldownTime)
+    {
+        return true;
+    }
+    else
+    {
+        float timeLeft = (lastUseTime + cooldownTime) - Time.time;
+        timeLeft = Mathf.Max(0f, timeLeft);
+        Debug.Log("Cooldown activo. Tiempo restante: " + timeLeft.ToString("F2") + " segundos");
+        return false;
+    }
+
+    //return  true;
     }
 
     public override void Activate(GameObject player)
 {
+    if (!CanActivate(player)) return;
+
     PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
     if (playerMovement != null)
     {
         playerMovement.Dash();
-        
-         lastUseTime = Time.time;
+        lastUseTime = Time.time;
+        Debug.Log("Tortuga activada");
     }
 }
 

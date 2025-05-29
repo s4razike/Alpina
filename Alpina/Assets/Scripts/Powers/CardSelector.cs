@@ -22,19 +22,22 @@ public class CardSelector : MonoBehaviour
     if (!cardSelected)
     {
         if (Input.GetKeyDown(KeyCode.H))
-            SelectCard(0);
+            {SelectCard(0);
+             }
         else if (Input.GetKeyDown(KeyCode.J))
-            SelectCard(1);
+            {SelectCard(1);
+            UIManager.Instance.TortugaAct(); }
         else if (Input.GetKeyDown(KeyCode.K))
-            SelectCard(2);
+           { SelectCard(2);
+            UIManager.Instance.PajaroAct(); } 
         else if (Input.GetKeyDown(KeyCode.L))
-            SelectCard(3);
+            { SelectCard(3);
+            UIManager.Instance.ElefanteDeAct();}
     }
     else
     {
         if (Input.GetKeyDown(KeyCode.Space) && selectedCard != null)
         {
-            // Cambiado: pasamos el GameObject en vez de PlayerStats
             if (selectedCard.CanActivate(gameObject))
             {
                 selectedCard.Activate(gameObject);
@@ -60,8 +63,6 @@ public class CardSelector : MonoBehaviour
         selectedIndex = index;
         selectedCard = availableCards[index];
         cardSelected = true;
-
-        cardUIManager.MostrarCartaSeleccionada(index);
 
         Debug.Log("Carta seleccionada: " + selectedCard.cardName);
     }

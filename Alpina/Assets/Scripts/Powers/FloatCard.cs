@@ -7,18 +7,19 @@ public class FloatCard : PowerCard
 {
     public float floatDuration = 3f;
 
-    public float cooldownTime = 15f; // tiempo de espera en segundos
-    private float lastUseTime = -Mathf.Infinity;
+    //public float cooldownTime = 15f; // tiempo de espera en segundos
+    //private float lastUseTime = -Mathf.Infinity;
 
     public override bool CanActivate(GameObject player)
     {
-        return Time.time >= lastUseTime + cooldownTime;
+        //return Time.time >= lastUseTime + cooldownTime;
+        return true;
     }
 
     public override void Activate(GameObject player)
     {
        player.GetComponent<PlayerMovement>().StartFloat(); 
        
-        lastUseTime = Time.time;
+        //lastUseTime = Time.time;
     }
 }

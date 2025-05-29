@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4a9e400887d094aa0b5dcd5621b828, type: 3}
   m_Name: ElefanteCharStats
   m_EditorClassIdentifier: 
-  Stars: 0
-  Health: 2
+  Stars: 38
+  Health: 1
   MaxHealth: 3
   characterName: 
   prefab: {fileID: 0}

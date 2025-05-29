@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class CardUIManager : MonoBehaviour
 {
-    [Header("Cartas activas")]
+    public static CardUIManager Instance;
+
+    public DashCard tortuga;
+
+     [Header("Cartas activas")]
     public GameObject[] cartasActivas;
 
     [Header("Cartas desactivadas")]
     public GameObject[] cartasDesactivadas;
+
+     private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+    }
 
     public void MostrarCartaSeleccionada(int index)
     {

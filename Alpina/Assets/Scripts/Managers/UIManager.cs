@@ -37,6 +37,21 @@ public class UIManager : MonoBehaviour
 
     private Coroutine activeCoroutine;
 
+    [Header("Cartas")]
+     //cartas
+    public Image pajaroActive;
+    public Image pajaroDeative;
+    public Image elefanteActive;
+    public Image elefanteDeactive;
+    public Image tortugaActive;
+    public Image tortugaDective;
+    public Image unicornioActive;
+    public Image unicornioDeactive;
+    public GameObject tortuga;
+    public GameObject pajaro;
+    public GameObject unicornio;
+    public GameObject elefante;
+
     private void Awake()
     {
         if(Instance == null)
@@ -52,8 +67,7 @@ public class UIManager : MonoBehaviour
         settingsPanel.SetActive(false);
         escudo.gameObject.SetActive(false);
         winText.gameObject.SetActive(false);
-        loseText.gameObject.SetActive(false);
- 
+        loseText.gameObject.SetActive(false); 
     }
 
     public void ShieldPower()
@@ -98,6 +112,70 @@ private IEnumerator PlayWinAnimationThenShowPanel()
     winPanel.SetActive(true);
     winText.gameObject.SetActive(false);
     Time.timeScale = 0;
+}
+
+public void PajaroAct(){
+    tortuga.SetActive(false); 
+    elefante.SetActive(false);
+    unicornio.SetActive(false);
+    pajaroActive.gameObject.SetActive(true);
+    pajaroDeative.gameObject.SetActive(false);
+}
+
+public void PajaroDeAct(){
+    tortuga.SetActive(false); 
+    elefante.SetActive(false);
+    unicornio.SetActive(false);
+    pajaroActive.gameObject.SetActive(false);
+    pajaroDeative.gameObject.SetActive(true);
+}
+
+public void ElefanteAct(){
+    pajaro.SetActive(false);
+    tortuga.SetActive(false);
+    unicornio.SetActive(false);
+    elefanteActive.gameObject.SetActive(true);
+    elefanteDeactive.gameObject.SetActive(false);
+}
+
+public void ElefanteDeAct(){
+    pajaro.SetActive(false);
+    tortuga.SetActive(false);
+    unicornio.SetActive(false);
+    elefanteActive.gameObject.SetActive(false);
+    elefanteDeactive.gameObject.SetActive(true);
+}
+
+public void TortugaAct(){
+    elefante.SetActive(false);
+    unicornio.SetActive(false);
+    pajaro.SetActive(false);
+    tortugaActive.gameObject.SetActive(true);
+    tortugaDective.gameObject.SetActive(false);
+}
+
+public void TortugaDeAct(){
+     elefante.SetActive(false);
+    unicornio.SetActive(false);
+    pajaro.SetActive(false);
+    tortugaActive.gameObject.SetActive(false);
+    tortugaDective.gameObject.SetActive(true);
+}
+
+public void UnicornioAct(){
+    elefante.SetActive(false);
+    tortuga.SetActive(false);
+    pajaro.SetActive(false);
+    unicornioActive.gameObject.SetActive(true);
+    unicornioDeactive.gameObject.SetActive(false);
+}
+
+public void UnicornioDeAct(){
+    elefante.SetActive(false);
+    tortuga.SetActive(false);
+    pajaro.SetActive(false);
+    unicornioActive.gameObject.SetActive(false);
+    unicornioDeactive.gameObject.SetActive(true);
 }
 
 /*public void HealthText(float health)
