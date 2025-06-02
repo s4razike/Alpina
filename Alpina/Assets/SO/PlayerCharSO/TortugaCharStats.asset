@@ -15,5 +15,5 @@ MonoBehaviour:
   Stars: 0
   Health: 3
   MaxHealth: 3
-  characterName: 
-  prefab: {fileID: 0}
+  characterName: Tortugalon
+  prefab: {fileID: 3646945820918532005, guid: e73ea6937e8adcd49997b224c4c68683, type: 3}

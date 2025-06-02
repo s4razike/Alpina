@@ -117,6 +117,7 @@ public static PlayerMovement instance;
             if (isGrounded)
             {
                 theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
+                    Debug.Log("Esta saltando");
             }
             else if (canDoubleJump)
             {

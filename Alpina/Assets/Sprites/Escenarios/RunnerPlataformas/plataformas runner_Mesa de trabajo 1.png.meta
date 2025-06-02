@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,9 +106,211 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_0
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3469
+        width: 3203
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3e3caaba20ba0428d8de8872d0488d
+      internalID: -791146882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_1
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 3785
+        width: 3914
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e018133fe11f344afbeed61a52f61a
+      internalID: -1816541789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 191
+        width: 1000
+        height: 2973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe5287bb9462af468b9479d04f693f0
+      internalID: -1911126445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_3
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 2246
+        width: 1551
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4017ce60a9cd6f448bdd4795a7e9e67
+      internalID: 2081713752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_4
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 2574
+        width: 3914
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8454cefa9c79c248bfef98c61c7ba87
+      internalID: -1154838040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_5
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 336
+        width: 578
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09331b75957f0e546b8c4fc2078c169d
+      internalID: -246064745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_6
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 336
+        width: 578
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3932b134914064c90a9b65919c4bdb
+      internalID: -801714372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_7
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 371
+        width: 648
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec95f9f0b31e9df43bfb7e7fdf436891
+      internalID: 1194703343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas runner_Mesa de trabajo 1_8
+      rect:
+        serializedVersion: 2
+        x: 5637
+        y: 898
+        width: 765
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e85911d0c8675449bcac8f8e8d4c173
+      internalID: 714723649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +321,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plataformas runner_Mesa de trabajo 1_0: -791146882
+      plataformas runner_Mesa de trabajo 1_1: -1816541789
+      plataformas runner_Mesa de trabajo 1_2: -1911126445
+      plataformas runner_Mesa de trabajo 1_3: 2081713752
+      plataformas runner_Mesa de trabajo 1_4: -1154838040
+      plataformas runner_Mesa de trabajo 1_5: -246064745
+      plataformas runner_Mesa de trabajo 1_6: -801714372
+      plataformas runner_Mesa de trabajo 1_7: 1194703343
+      plataformas runner_Mesa de trabajo 1_8: 714723649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

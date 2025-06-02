@@ -15,5 +15,5 @@ MonoBehaviour:
   Stars: 0
   Health: 3
   MaxHealth: 3
-  characterName: 
-  prefab: {fileID: 0}
+  characterName: Sauricio
+  prefab: {fileID: 1010854411756358048, guid: 77de71a93d3646049a93c651c8010376, type: 3}
