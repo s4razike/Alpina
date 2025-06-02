@@ -3,7 +3,33 @@ guid: 94e010aa70cfc9a4c8737674fe46d0d5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - escudo: {instanceID: 0}
+  - winPanel: {instanceID: 0}
+  - winText: {instanceID: 0}
+  - winAnimator: {instanceID: 0}
+  - loseText: {instanceID: 0}
+  - loseAnimator: {instanceID: 0}
+  - extraHealth: {instanceID: 0}
+  - time: {instanceID: 0}
+  - star1: {instanceID: 0}
+  - star2: {instanceID: 0}
+  - star3: {instanceID: 0}
+  - score: {instanceID: 0}
+  - gameOverPanel: {instanceID: 0}
+  - settingsPanel: {instanceID: 0}
+  - pajaroActive: {instanceID: 0}
+  - pajaroDeative: {instanceID: 0}
+  - elefanteActive: {instanceID: 0}
+  - elefanteDeactive: {instanceID: 0}
+  - tortugaActive: {instanceID: 0}
+  - tortugaDective: {instanceID: 0}
+  - unicornioActive: {instanceID: 0}
+  - unicornioDeactive: {instanceID: 0}
+  - tortuga: {instanceID: 0}
+  - pajaro: {instanceID: 0}
+  - unicornio: {instanceID: 0}
+  - elefante: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

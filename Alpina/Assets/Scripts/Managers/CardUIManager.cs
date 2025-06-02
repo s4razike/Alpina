@@ -6,9 +6,13 @@ public class CardUIManager : MonoBehaviour
 {
     public static CardUIManager Instance;
 
-    public DashCard tortuga;
+    public ExtraLifeCard unicornioPowerSO;
+    public FloatCard pajaroPowerSO;
+    public ShieldCard elefantePowerSO;
+    public DashCard tortugaPowerSO;
 
-     [Header("Cartas activas")]
+
+    [Header("Cartas activas")]
     public GameObject[] cartasActivas;
 
     [Header("Cartas desactivadas")]

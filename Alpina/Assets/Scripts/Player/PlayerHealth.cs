@@ -23,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
     }
 
+
     void Start()
 {
     previousHealth = (int)stats.Health;
