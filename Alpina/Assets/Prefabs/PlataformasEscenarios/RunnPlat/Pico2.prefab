@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6278668961367606262}
   - component: {fileID: 5130750445409315054}
   - component: {fileID: 7217712850863722776}
+  - component: {fileID: 4295310401424723603}
   m_Layer: 0
   m_Name: Pico2
   m_TagString: Untagged
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.48, y: 5.78}
   m_EdgeRadius: 0
+--- !u!114 &4295310401424723603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8783640016013064296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9222ca7d4d934544e9a7abaaa44e97d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
+  playerTag: Player

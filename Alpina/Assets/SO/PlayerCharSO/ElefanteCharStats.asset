@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4a9e400887d094aa0b5dcd5621b828, type: 3}
   m_Name: ElefanteCharStats
   m_EditorClassIdentifier: 
-  Stars: 5
-  Health: 1
+  Stars: 0
+  Health: 2
   MaxHealth: 3
   characterName: Trompedro
-  prefab: {fileID: 7487018356975552500, guid: 51ee599fdcb8d55458e4f1d58ac3cbce, type: 3}
+  prefab: {fileID: 3892979699318585297, guid: ba8bcd8f1bb23d646a8c2bc6093583d7, type: 3}

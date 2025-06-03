@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Ajustes.unity
     guid: 964814054da44e4429b00921ce23bba8
   - enabled: 1
+    path: Assets/Scenes/Plataformas.unity
+    guid: 90c0eda9c7752a84baf3afbde5cc2791
+  - enabled: 1
     path: Assets/Scenes/Jefe.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: Assets/Scenes/Inicio.unity
     guid: 074d15d99d430da479e69b49175ef402
-  - enabled: 0
-    path: Assets/Scenes/Plataformas.unity
-    guid: 90c0eda9c7752a84baf3afbde5cc2791
   - enabled: 0
     path: Assets/Scenes/SeleccionNivel.unity
     guid: 3e6adb5c375353b4497d393a3e8ebeb9

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690679038471152596}
   - component: {fileID: 6966010494837361270}
-  - component: {fileID: 1316027887056859899}
+  - component: {fileID: 1914930339280815423}
   m_Layer: 0
   m_Name: Estrella
   m_TagString: Untagged
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1316027887056859899
-BoxCollider2D:
+--- !u!58 &1914930339280815423
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -114,19 +114,9 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.6500006, y: 7.4300003}
-    newSize: {x: 7.6500006, y: 7.4300003}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.6500006, y: 7.4300003}
-  m_EdgeRadius: 0
+  m_Radius: 3.8250003

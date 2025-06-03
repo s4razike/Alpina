@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    /*    public void Jugar()
-{
-    SceneManager.LoadScene(1);
-}
-
-    public void Volver()
-{
-    SceneManager.LoadScene(0); 
-}*/
+    public PlayerStats playerStats;
+    void Start()
+    {
+        // Resetea las estadísticas del jugador al iniciar el juego
+        playerStats.ResetPlayer();
+    }
+    // Puedes agregar más lógica aquí para manejar el juego
 }
