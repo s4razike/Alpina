@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 8157207563954294363}
   - component: {fileID: 1238884141444476038}
   - component: {fileID: 4649144031461183296}
+  - component: {fileID: 2366158746168943181}
   - component: {fileID: 5926989093468679807}
   - component: {fileID: 7431888967386462472}
   - component: {fileID: 182966766587343414}
@@ -266,6 +267,19 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: d2c8c478857f0b549b87a4c63e09cb86, type: 2}
   lifeUIAnimator: {fileID: 0}
   previousHealth: 4
+--- !u!114 &2366158746168943181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7487018356975552500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d03103df572414468d80c019bdc213a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpSound: {fileID: 8300000, guid: 9fb9cd0d1e8267a499667b2bab0e59e2, type: 3}
 --- !u!114 &5926989093468679807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +295,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6913508641371503127, guid: 2b7bd8b1441a3014380a53a8c0f0d5fb, type: 3}
   firePoint: {fileID: 7094259935273570932}
   isShooting: 0
+  shootSound: {fileID: 8300000, guid: cb320a930833595429965479077d5a90, type: 3}
 --- !u!114 &7431888967386462472
 MonoBehaviour:
   m_ObjectHideFlags: 0
