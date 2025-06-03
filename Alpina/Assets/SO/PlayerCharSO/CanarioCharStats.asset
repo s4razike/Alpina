@@ -16,4 +16,4 @@ MonoBehaviour:
   Health: 3
   MaxHealth: 3
   characterName: MarioCanario
-  prefab: {fileID: 7688351351202104458, guid: be65d7725cbee5943a212e1003b87de5, type: 3}
+  prefab: {fileID: 1344069810857769765, guid: 23b6f99c8d65cab4a873ac87fe82d1f7, type: 3}

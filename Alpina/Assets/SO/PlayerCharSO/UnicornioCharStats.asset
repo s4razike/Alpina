@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4d9f924175c424eb05787bc277fdc3, type: 3}
   m_Name: UnicornioCharStats
   m_EditorClassIdentifier: 
-  Stars: 0
+  Stars: 2
   Health: 3
   MaxHealth: 3
   characterName: Sauricio
-  prefab: {fileID: 1010854411756358048, guid: 77de71a93d3646049a93c651c8010376, type: 3}
+  prefab: {fileID: 1454880307370826075, guid: 540de24626d04e649846bfbe6b15da24, type: 3}

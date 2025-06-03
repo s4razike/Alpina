@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class LevelFinish : MonoBehaviour
 {
-   
-
+    // Lista de nombres de las escenas en el orden en que deben ser cargadas
+    public string[] sceneNames;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -13,15 +12,14 @@ public class LevelFinish : MonoBehaviour
             LoadNextLevel();
         }
     }
-
     void LoadNextLevel()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextSceneIndex = currentSceneIndex + 1;
-
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        int currentSceneIndex = System.Array.IndexOf(sceneNames, currentSceneName);
+        if (currentSceneIndex >= 0 && currentSceneIndex < sceneNames.Length - 1)
         {
-            SceneManager.LoadScene(nextSceneIndex);
+            string nextSceneName = sceneNames[currentSceneIndex + 1];
+            SceneManager.LoadScene(nextSceneName);
         }
         else
         {

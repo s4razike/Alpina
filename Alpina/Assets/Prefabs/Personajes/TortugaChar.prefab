@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3646493874172117348}
   - component: {fileID: 5662174611803923963}
   - component: {fileID: 4442739544149561122}
+  - component: {fileID: -6747485576365036032}
   - component: {fileID: 5208919102621948316}
   - component: {fileID: 7233803750019552542}
   - component: {fileID: 2945547397481371833}
@@ -27,7 +28,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9024372108726852230
 Transform:
   m_ObjectHideFlags: 0
@@ -190,6 +191,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.6349764, y: 4.24}
   m_EdgeRadius: 0
+--- !u!114 &-6747485576365036032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3646945820918532005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d224d9294335f498d7269b80e94540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableCards:
+  - {fileID: 11400000, guid: c76f118988bce2e41b0cd6fb41fe1ba5, type: 2}
+  - {fileID: 11400000, guid: 70e0542b818c9c04799881cf0e9aa877, type: 2}
+  - {fileID: 11400000, guid: 6cdf026d778e5c443a1aef3950be46f2, type: 2}
+  - {fileID: 11400000, guid: 52faf277d86959e4392d71c58a09da28, type: 2}
+  cardUIManager: {fileID: 0}
+  playerStats: {fileID: 11400000, guid: c59b120f623f24b49a25bae8ab7c320a, type: 2}
+  cardSelected: 0
+  selectedIndex: -1
+  selectedCard: {fileID: 11400000, guid: 70e0542b818c9c04799881cf0e9aa877, type: 2}
 --- !u!114 &5208919102621948316
 MonoBehaviour:
   m_ObjectHideFlags: 0
