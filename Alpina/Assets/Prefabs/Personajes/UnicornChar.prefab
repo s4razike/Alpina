@@ -50,8 +50,8 @@ GameObject:
   - component: {fileID: 3442426679326559273}
   - component: {fileID: 4930010313623534896}
   - component: {fileID: 786410153696428462}
-  - component: {fileID: -6895650428231009487}
   - component: {fileID: 5872073016653106990}
+  - component: {fileID: -6895650428231009487}
   - component: {fileID: 5328086542929402266}
   m_Layer: 7
   m_Name: UnicornChar
@@ -299,28 +299,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.13979903, y: -0.13980007}
   m_Size: {x: 5.5005093, y: 7.8396}
   m_Direction: 0
---- !u!114 &-6895650428231009487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1454880307370826075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03d224d9294335f498d7269b80e94540, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  availableCards:
-  - {fileID: 11400000, guid: c76f118988bce2e41b0cd6fb41fe1ba5, type: 2}
-  - {fileID: 11400000, guid: 70e0542b818c9c04799881cf0e9aa877, type: 2}
-  - {fileID: 11400000, guid: 6cdf026d778e5c443a1aef3950be46f2, type: 2}
-  - {fileID: 11400000, guid: 52faf277d86959e4392d71c58a09da28, type: 2}
-  cardUIManager: {fileID: 0}
-  playerStats: {fileID: 11400000, guid: 1f5ed39625ea90c47b4eff0b1989499d, type: 2}
-  cardSelected: 0
-  selectedIndex: -1
-  selectedCard: {fileID: 11400000, guid: 70e0542b818c9c04799881cf0e9aa877, type: 2}
 --- !u!50 &5872073016653106990
 Rigidbody2D:
   serializedVersion: 4
@@ -348,6 +326,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-6895650428231009487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454880307370826075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d224d9294335f498d7269b80e94540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableCards:
+  - {fileID: 11400000, guid: c76f118988bce2e41b0cd6fb41fe1ba5, type: 2}
+  - {fileID: 11400000, guid: 70e0542b818c9c04799881cf0e9aa877, type: 2}
+  - {fileID: 11400000, guid: 6cdf026d778e5c443a1aef3950be46f2, type: 2}
+  - {fileID: 11400000, guid: 52faf277d86959e4392d71c58a09da28, type: 2}
+  cardUIManager: {fileID: 0}
+  playerStats: {fileID: 11400000, guid: 1f5ed39625ea90c47b4eff0b1989499d, type: 2}
+  cardSelected: 0
+  selectedIndex: -1
+  selectedCard: {fileID: 11400000, guid: 70e0542b818c9c04799881cf0e9aa877, type: 2}
 --- !u!82 &5328086542929402266
 AudioSource:
   m_ObjectHideFlags: 0
