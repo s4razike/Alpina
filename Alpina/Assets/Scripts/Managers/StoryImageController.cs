@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class StoryImageController : MonoBehaviour
 {
-    public Image[] storyImages;
+    public GameObject[] storyContainers;
     public Image backgroundCoverImage; // Imagen que cubre el fondo
     public float fadeDuration = 1.5f;
     public float displayDuration = 4f;
@@ -18,25 +18,22 @@ public class StoryImageController : MonoBehaviour
 
     private void Start()
     {
-        // Inicializar al principio:
-        for (int i = 0; i < storyImages.Length; i++)
+        for (int i = 0; i < storyContainers.Length; i++)
         {
-            SetAlpha(storyImages[i], i == 0 ? 1f : 0f);
-            storyImages[i].gameObject.SetActive(true);
+            SetAlpha(storyContainers[i], i == 0 ? 1f : 0f);
+            storyContainers[i].SetActive(true);
         }
 
         if (backgroundCoverImage != null)
         {
-            SetAlpha(backgroundCoverImage, 1f);
+            SetAlpha(backgroundCoverImage.gameObject, 1f);
             backgroundCoverImage.gameObject.SetActive(true);
         }
 
-        currentIndex = 0;
-
-        // Ocultar login al inicio
         if (loginPanelGO != null)
             loginPanelGO.SetActive(false);
 
+        currentIndex = 0;
         transitionCoroutine = StartCoroutine(AutoPlayStory());
     }
 
@@ -59,17 +56,21 @@ public class StoryImageController : MonoBehaviour
         while (true)
         {
             float waitTime = displayDuration - fadeDuration;
+            // Esperar la duración normal antes del fade
             yield return new WaitForSeconds(waitTime);
 
-            yield return FadeToNextImage();
-
-            currentIndex++;
-            if (currentIndex >= storyImages.Length - 1)
+            if (currentIndex >= storyContainers.Length - 1)
             {
-                // Historia terminada
+                // Última imagen: esperar displayDuration completa antes de terminar
+                yield return new WaitForSeconds(fadeDuration);
                 EndStorySequence();
                 yield break;
             }
+
+            yield return FadeToNextImage();
+
+            // Incrementar currentIndex después de transición
+            currentIndex++;
         }
     }
 
@@ -77,8 +78,8 @@ public class StoryImageController : MonoBehaviour
     {
         isTransitioning = true;
 
-        Image currentImage = storyImages[currentIndex];
-        Image nextImage = storyImages[Mathf.Min(currentIndex + 1, storyImages.Length - 1)];
+        GameObject currentGO = storyContainers[currentIndex];
+        GameObject nextGO = storyContainers[currentIndex + 1];
 
         float elapsed = 0f;
 
@@ -87,30 +88,74 @@ public class StoryImageController : MonoBehaviour
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / fadeDuration);
 
-            SetAlpha(currentImage, Mathf.Lerp(1f, 0f, t));
-            SetAlpha(nextImage, Mathf.Lerp(0f, 1f, t));
+            SetAlpha(currentGO, 1f - t);
+            SetAlpha(nextGO, t);
 
             yield return null;
         }
 
-        SetAlpha(currentImage, 0f);
-        SetAlpha(nextImage, 1f);
+        SetAlpha(currentGO, 0f);
+        SetAlpha(nextGO, 1f);
 
         isTransitioning = false;
     }
 
     private void NextImage()
     {
-        if (currentIndex >= storyImages.Length - 1) return;
+        if (isTransitioning) return;
 
-        StartCoroutine(FadeToNextImage());
+        if (currentIndex < storyContainers.Length - 1)
+        {
+            // Si hay una transición en curso, no hacer nada
+            if (transitionCoroutine != null)
+                StopCoroutine(transitionCoroutine);
+
+            transitionCoroutine = StartCoroutine(UserSkipToNextImage());
+        }
+        else
+        {
+            // Si estamos en la última imagen, finalizar secuencia
+            EndStorySequence();
+        }
+    }
+
+    private IEnumerator UserSkipToNextImage()
+    {
+        isTransitioning = true;
+
+        GameObject currentGO = storyContainers[currentIndex];
+        GameObject nextGO = storyContainers[currentIndex + 1];
+
+        float elapsed = 0f;
+
+        while (elapsed < fadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / fadeDuration);
+
+            SetAlpha(currentGO, 1f - t);
+            SetAlpha(nextGO, t);
+
+            yield return null;
+        }
+
+        SetAlpha(currentGO, 0f);
+        SetAlpha(nextGO, 1f);
+
         currentIndex++;
+
+        isTransitioning = false;
+
+        // Reiniciar autoproceso después del salto manual
+        if (transitionCoroutine != null)
+            StopCoroutine(transitionCoroutine);
+        transitionCoroutine = StartCoroutine(AutoPlayStory());
     }
 
     private void EndStorySequence()
     {
         // Desactivar todas las imágenes de la historia
-        foreach(var img in storyImages)
+        foreach (var img in storyContainers)
         {
             img.gameObject.SetActive(false);
         }
@@ -123,13 +168,20 @@ public class StoryImageController : MonoBehaviour
             loginPanelGO.SetActive(true);
     }
 
-    private void SetAlpha(Image img, float alpha)
+    private void SetAlpha(GameObject container, float alpha)
     {
-        Color color = img.color;
-        color.a = alpha;
-        img.color = color;
+        Graphic[] graphics = container.GetComponentsInChildren<Graphic>(true);
+        foreach (Graphic g in graphics)
+        {
+            Color c = g.color;
+            c.a = alpha;
+            g.color = c;
+        }
     }
 }
+
+
+
 
 
 

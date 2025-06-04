@@ -1912,7 +1912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 587475669}
   prefabPluma: {fileID: 7184745720457545214, guid: 2a87171e35da8b64dbeb9cad463e96bd, type: 3}
-  tiempoDeDescanso: 5
+  tiempoDeDescanso: 4
   vidaMaxima: 100
   ataqueRadial:
     nombre: 
@@ -1937,7 +1937,7 @@ MonoBehaviour:
     cantidad: 8
     anguloInicial: 15
     separacion: 1
-    delayEjecucion: 0.5
+    delayEjecucion: 0.1
   ataqueAbajoF2:
     nombre: 
     prefab: {fileID: 203509534258576359, guid: beee1ee575ef3a4428bdc1378aa91941, type: 3}
@@ -1945,7 +1945,7 @@ MonoBehaviour:
     cantidad: 8
     anguloInicial: 20
     separacion: 1
-    delayEjecucion: 0.5
+    delayEjecucion: 0.1
   ataqueNubes:
     nombre: 
     prefab: {fileID: 3174815317857788939, guid: a3d69cfd2f7b51e4db1ab6d9a60a80ed, type: 3}
