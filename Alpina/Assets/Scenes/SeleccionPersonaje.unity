@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 10779809}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1291427251}
+        m_TargetAssemblyTypeName: CardSelector, Assembly-CSharp
+        m_MethodName: SelectCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &10779809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,7 +507,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 220759674}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1291427251}
+        m_TargetAssemblyTypeName: CardSelector, Assembly-CSharp
+        m_MethodName: SelectCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &220759674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -992,7 +1016,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 533939934}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1291427248}
+        m_TargetAssemblyTypeName: Escenas, Assembly-CSharp
+        m_MethodName: ChangeToNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &533939934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1228,7 +1264,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 734606977}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1291427251}
+        m_TargetAssemblyTypeName: CardSelector, Assembly-CSharp
+        m_MethodName: SelectCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &734606977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1861,6 +1909,94 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205248335}
   m_CullTransparentMesh: 1
+--- !u!1 &1291427247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291427249}
+  - component: {fileID: 1291427248}
+  - component: {fileID: 1291427251}
+  - component: {fileID: 1291427250}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1291427248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291427247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb6a338b05f421d458b9c92a39ac8ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelPausa: {fileID: 0}
+  mainMenuSceneName: MainMenu
+--- !u!4 &1291427249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291427247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0486367, y: -1.6981076, z: 39.69255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1291427250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291427247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46339a6002366d4eb4edc5db830f6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unicornioPowerSO: {fileID: 0}
+  pajaroPowerSO: {fileID: 0}
+  elefantePowerSO: {fileID: 0}
+  tortugaPowerSO: {fileID: 0}
+  cartasActivas: []
+  cartasDesactivadas: []
+--- !u!114 &1291427251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291427247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d224d9294335f498d7269b80e94540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableCards:
+  - {fileID: 11400000, guid: c76f118988bce2e41b0cd6fb41fe1ba5, type: 2}
+  - {fileID: 11400000, guid: 70e0542b818c9c04799881cf0e9aa877, type: 2}
+  - {fileID: 11400000, guid: 6cdf026d778e5c443a1aef3950be46f2, type: 2}
+  - {fileID: 11400000, guid: 52faf277d86959e4392d71c58a09da28, type: 2}
+  cardUIManager: {fileID: 1291427250}
+  playerStats: {fileID: 11400000, guid: d2c8c478857f0b549b87a4c63e09cb86, type: 2}
+  cardSelected: 0
+  selectedIndex: -1
+  selectedCard: {fileID: 0}
 --- !u!1 &1291999994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,7 +2291,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1488363532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1291427251}
+        m_TargetAssemblyTypeName: CardSelector, Assembly-CSharp
+        m_MethodName: SelectCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1488363532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3853,3 +4001,4 @@ SceneRoots:
   - {fileID: 1775694460}
   - {fileID: 2079190298}
   - {fileID: 401315187}
+  - {fileID: 1291427249}
