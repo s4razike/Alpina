@@ -5,19 +5,19 @@ public class Escenas : MonoBehaviour
 {
     public void ReiniciarNivelActual()
     {
-        // Obtiene el índice de la escena actual
+        // Obtiene el ï¿½ndice de la escena actual
         int indiceEscenaActual = SceneManager.GetActiveScene().buildIndex;
         // Recarga la escena actual
         SceneManager.LoadScene(indiceEscenaActual);
     }
 
-    [Tooltip("Panel de pausa que se mostrará/ocultará")]
+    [Tooltip("Panel de pausa que se mostrarï¿½/ocultarï¿½")]
     public GameObject panelPausa;
-    // Variable para controlar si el juego está pausado
+    // Variable para controlar si el juego estï¿½ pausado
     private bool juegoPausado = false;
     void Start()
     {
-        // Asegurarse que el panel de pausa está oculto al iniciar
+        // Asegurarse que el panel de pausa estï¿½ oculto al iniciar
         if (panelPausa != null)
         {
             panelPausa.SetActive(false);
@@ -25,7 +25,7 @@ public class Escenas : MonoBehaviour
     }
     void Update()
     {
-        // Detectar la pulsación de la tecla Escape
+        // Detectar la pulsaciï¿½n de la tecla Escape
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (juegoPausado)
@@ -41,7 +41,7 @@ public class Escenas : MonoBehaviour
 
     public void ReanudarJuego()
     {
-        Time.timeScale = 1f; // Continúa el tiempo del juego
+        Time.timeScale = 1f; // Continï¿½a el tiempo del juego
 
         juegoPausado = false;
 
@@ -77,16 +77,21 @@ public class Escenas : MonoBehaviour
         SceneManager.LoadScene(nextIndex);
     }
 
-    [Tooltip("Nombre o índice de la escena del menú principal")]
-    public string mainMenuSceneName = "MainMenu";
+    [Tooltip("Nombre o ï¿½ndice de la escena del menï¿½ principal")]
+    public string mainMenuSceneName = "Inicio";
     /// <summary>
-    /// Carga la escena del menú principal.
+    /// Carga la escena del menï¿½ principal.
     /// </summary>
     public void ReturnToMainMenuScene()
     {
         SceneManager.LoadScene(mainMenuSceneName);
     }
 
+    public void SalirDelJuego()
+{
+    Debug.Log("[UI] Saliendo del juego...");
+    Application.Quit();
+}
 
 
     }
