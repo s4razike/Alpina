@@ -2,13 +2,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LevelFinish : MonoBehaviour
 {
-    
     // Nombre de la escena a la que deseas cambiar
     public string sceneToLoad;
-    void Update()
+    // Este método se llama cuando otro collider entra en el trigger
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Cambiar de escena al presionar la tecla "C"
-        if (Input.GetKeyDown(KeyCode.C))
+        // Verificar si el objeto que colisionó tiene la etiqueta "Player"
+        if (collision.CompareTag("Player"))
         {
             ChangeScene();
         }
@@ -18,5 +18,4 @@ public class LevelFinish : MonoBehaviour
         // Cargar la escena especificada
         SceneManager.LoadScene(sceneToLoad);
     }
-
 }
